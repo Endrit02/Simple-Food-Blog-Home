@@ -44,3 +44,37 @@
 }
 
 /* END OF HEADER */
+
+.article_boxes {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box_content {
+  margin-bottom: 100px;
+}
+
+.box_content span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 32px;
+}
+
+.box_content h5 {
+  font-size: 18px;
+  padding-top: 12px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.box_content p {
+  font-size: 15px;
+  color: #000000;
+  padding-top: 16px;
+  font-weight: 300;
+}
