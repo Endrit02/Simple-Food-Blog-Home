@@ -78,3 +78,35 @@
   padding-top: 16px;
   font-weight: 300;
 }
+
+/* END OF HOME PAGE */
+
+.footerWrap {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 311px;
+}
+
+.footerWrap ul {
+  display: flex;
+}
+
+.footerWrap a,
+p {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #9FA1AA;
+}
+
+.slash::before {
+  content: none;
+  position: absolute;
+} 
+
+.slash {
+  margin: 0 8px ;
+}
